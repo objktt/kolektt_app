@@ -49,7 +49,6 @@ class _SplashScreenState extends State<SplashScreen> {
     final bool isDark = brightness == Brightness.dark;
     final Color backgroundColor =
         isDark ? CupertinoColors.black : const Color(0xFF0036FF);
-    const Color textColor = CupertinoColors.white;
 
     // 상태바 색상 동기화
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
@@ -74,7 +73,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   fontWeight: FontWeight.normal,
                   fontSize: 48,
                   color: CupertinoColors.white,
-                  height: 60 / 48, // Figma 기준
+                  height: 66 / 48,
                   letterSpacing: 0,
                 ),
               ),
