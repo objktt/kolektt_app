@@ -1,1 +1,1 @@
-# kolektt_app
+kolektt_app

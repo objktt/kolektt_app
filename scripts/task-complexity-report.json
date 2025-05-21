@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "generatedAt": "2025-05-15T09:37:36.627Z",
+    "tasksAnalyzed": 19,
+    "thresholdScore": 5,
+    "projectName": "Taskmaster",
+    "usedResearch": true
+  },
+  "complexityAnalysis": [
+    {
+      "taskId": 1,
+      "taskTitle": "프로젝트 초기 설정 및 아키텍처 구성",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the Clean Architecture iOS project setup into detailed implementation steps, including specific folder structure creation, base class implementations, dependency injection setup with Riverpod, and navigation system configuration.",
+      "reasoning": "This task involves establishing the entire project architecture which requires deep technical knowledge of Clean Architecture principles, Riverpod state management, and iOS development patterns. The complexity comes from making foundational decisions that will impact the entire project."
+    },
+    {
+      "taskId": 2,
+      "taskTitle": "디자인 시스템 구현",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the implementation steps for the design system, including color palette definition, typography system with Pretendard font, reusable UI component creation, and accessibility compliance measures.",
+      "reasoning": "Creating a comprehensive design system requires both technical implementation and design sensibility. The task involves setting up color themes, typography, component libraries, and ensuring accessibility compliance across light/dark modes."
+    },
+    {
+      "taskId": 3,
+      "taskTitle": "로컬 데이터베이스 설정",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the SQLite database implementation into detailed steps, including schema design, data access layer implementation, CRUD operations, migration system, and integration with the Clean Architecture pattern.",
+      "reasoning": "Database design and implementation is inherently complex, requiring careful schema design, efficient query optimization, and integration with the app's architecture. The migration system adds another layer of complexity."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "사용자 인증 및 계정 관리",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the implementation steps for user authentication, including Sign in with Apple integration, biometric authentication setup, user profile data model design, and secure credential storage.",
+      "reasoning": "Authentication involves security considerations, third-party API integration (Apple ID), and biometric authentication. The complexity comes from ensuring secure implementation and handling various authentication states."
+    },
+    {
+      "taskId": 5,
+      "taskTitle": "온보딩 흐름 구현",
+      "complexityScore": 5,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Break down the onboarding flow implementation into detailed steps, including UI design for each screen, permission request handling, and state management for the onboarding process.",
+      "reasoning": "Onboarding involves multiple screens with a defined flow, permission requests, and state management. While not technically complex, it requires careful UX consideration and integration with other systems like authentication."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "레코드 등록 기본 기능 구현",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the implementation steps for the record registration feature, including form UI design, validation logic, image handling, and database integration for saving records.",
+      "reasoning": "This feature involves form design, validation logic, image handling, and database operations. The complexity comes from handling various input types and ensuring data integrity."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "바코드 스캔 기능 구현",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the barcode scanning feature implementation into detailed steps, including camera integration with AVFoundation, barcode recognition logic, external API integration, and UI for displaying search results.",
+      "reasoning": "This task involves camera hardware access, real-time image processing, third-party API integration, and handling various error states. The complexity comes from coordinating these different systems."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "컬렉션 뷰 구현",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the implementation steps for the collection view feature, including grid and list view implementations, view transitions, sorting and filtering logic, and performance optimization for large collections.",
+      "reasoning": "Creating flexible collection views with multiple display modes, transitions, and filtering options is complex. Performance optimization for potentially large collections adds significant complexity."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "검색 및 필터링 기능 구현",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the search and filtering feature implementation into detailed steps, including search UI design, query optimization, advanced filtering options, and search history management.",
+      "reasoning": "Implementing efficient search across multiple fields with real-time results and complex filtering options requires careful optimization. The UI for advanced filtering adds additional complexity."
+    },
+    {
+      "taskId": 11,
+      "taskTitle": "통계 및 분석 기능 구현",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the implementation steps for the statistics and analytics feature, including data aggregation logic, chart implementations, collection growth tracking, and value estimation algorithms.",
+      "reasoning": "This feature requires complex data analysis, statistical calculations, and visualization components. The algorithms for trend analysis and value estimation add significant complexity."
+    },
+    {
+      "taskId": 12,
+      "taskTitle": "자동 태깅 기능 구현",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the automatic tagging feature implementation into detailed steps, including tag system design, AI-based tag recommendation, user-defined tagging, and tag-based search integration.",
+      "reasoning": "This feature involves AI integration for tag recommendations and a complex tag management system. The integration with search and filtering adds additional complexity."
+    },
+    {
+      "taskId": 13,
+      "taskTitle": "유사 앨범 추천 기능 구현",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the implementation steps for the album recommendation feature, including recommendation algorithm design, external API integration, collection analysis logic, and UI for displaying recommendations.",
+      "reasoning": "Building a recommendation system requires complex algorithms, collection analysis, and integration with external music databases. The personalization aspect adds significant complexity."
+    },
+    {
+      "taskId": 14,
+      "taskTitle": "기본 커뮤니티 기능 구현",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the community feature implementation into detailed steps, including user profile management, collection sharing mechanisms, like/comment system, and activity feed implementation.",
+      "reasoning": "Community features involve social interactions, privacy considerations, and real-time updates. The complexity comes from managing user relationships and content sharing permissions."
+    },
+    {
+      "taskId": 15,
+      "taskTitle": "iCloud 백업 및 동기화 구현",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the implementation steps for iCloud backup and synchronization, including CloudKit container setup, automatic backup system, manual backup/restore functionality, and conflict resolution strategies.",
+      "reasoning": "Cloud synchronization is inherently complex, involving data consistency across devices, conflict resolution, and handling offline/online states. The backup management adds another layer of complexity."
+    },
+    {
+      "taskId": 16,
+      "taskTitle": "구독 및 결제 시스템 구현",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the subscription and payment system implementation into detailed steps, including StoreKit 2 integration, subscription product configuration, payment flow, subscription status management, and receipt validation.",
+      "reasoning": "In-app purchases involve complex Apple StoreKit integration, secure transaction handling, receipt validation, and subscription state management. The financial nature requires careful implementation and testing."
+    },
+    {
+      "taskId": 17,
+      "taskTitle": "프리미엄/무료 기능 분리 구현",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Detail the implementation steps for premium/free feature separation, including feature gating logic, subscription status checking, premium upgrade prompts, and usage limitation implementation.",
+      "reasoning": "This task requires careful integration with the subscription system and thoughtful UX design for premium feature access. The complexity comes from implementing usage limits and upgrade flows."
+    },
+    {
+      "taskId": 18,
+      "taskTitle": "접근성 지원 구현",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the accessibility implementation into detailed steps, including VoiceOver support, dynamic type adaptation, high contrast mode, and WCAG compliance testing.",
+      "reasoning": "Implementing comprehensive accessibility requires deep knowledge of iOS accessibility frameworks and WCAG guidelines. The complexity comes from ensuring all app features are accessible across different needs."
+    },
+    {
+      "taskId": 19,
+      "taskTitle": "오프라인 모드 지원 구현",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Detail the implementation steps for offline mode support, including network state monitoring, offline data caching strategies, operation queue implementation, and synchronization logic for network recovery.",
+      "reasoning": "Offline support requires sophisticated state management, data caching, and conflict resolution when coming back online. The complexity comes from ensuring data consistency across offline/online states."
+    },
+    {
+      "taskId": 20,
+      "taskTitle": "앱 출시 준비 및 최적화",
+      "complexityScore": 9,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the app release preparation into detailed steps, including performance profiling, memory leak detection, app size optimization, App Store assets creation, metadata preparation, and TestFlight beta testing.",
+      "reasoning": "This final task involves comprehensive optimization across all app systems, performance profiling, and preparation of numerous App Store assets. The complexity comes from addressing issues across the entire application and coordinating the release process."
+    }
+  ]
+}
